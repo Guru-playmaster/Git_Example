@@ -15,7 +15,7 @@ namespace Git_Example.Controllers
 
         public IActionResult Index()
         {
-            return Content("This is Index-Master branch");
+            return Content("Index method-updated");
         }
 
         public IActionResult Privacy()
